@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      INGRESOS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="container">
+  <!-- <div class="divSpan">
+    <label id="lbl">Saldo disponible</label>
+    <h1 id="saldo">$00000</h1>
+    <label id="lbl">Ahorrado</label>
+    <h4 id="saldo">$00000</h4>
+  </div>
+
+  <div class="divList">
+    <ion-label>Ingresos realizados anteriormente</ion-label>
+    <ion-list lines="full" *ngFor="let i of ingresos">
+      <ion-item>
+        <ion-label>Valor: {{i.valor}}</ion-label>
+        <ion-label>Mes: {{i.mes}}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div> -->
+  <swiper-container
+    (slidechange)="swiperSlideChanged($event)"
+    [loop]="true"
+    [pagination]="true">
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+  </swiper-container>
+</ion-content>
+<!-- <div *ngFor="let img of imagenes">
+  <img [src]="img.dataUrl">
+</div> -->
+
+<ion-button (click)="funcion()"></ion-button>

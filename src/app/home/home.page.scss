@@ -1,0 +1,78 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divSpan{
+  position: relative;
+  width: 90%; 
+  height: 12%; 
+  background-color: slategrey; 
+  left: 5%;
+  top: 2%;
+  color: black;
+}
+
+#saldo{
+  margin-top: 1px;
+  position: relative;
+  left: 40%;
+}
+
+#lbl{
+  position: relative;
+  left: 1%;
+  top: 2%;
+}
+
+.divList{
+  position: relative;
+  width: 90%;
+  left: 5%;
+  top: 7%;
+  ion-item{
+    --background: transparent;
+  }
+}
+
+swiper-container{
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
